@@ -3,4 +3,29 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome!</string>
+    <string name="homepage">This is homepage</string>
+
+    <!-- Error Code -->
+    <string name="error_no_net">Please check the network!</string>
+    <string name="error_network">Something is wrong with the network!</string>
+    <string name="error_system">Something is wrong with the system!</string>
+
+    <!-- Title Name-->
+    <string name="title">Title1</string>
+    <string name="alert_title_choose_file_path">Choose the path to save files</string>
+    <string name="alert_app_new_version_found">Find new version,\ndo you want to upgrade?</string>
+    <string name="update_title">Upgrading ...</string>
+    <string name="update_content">Update_content</string>
+    <!-- Message -->
+    <string name="message_choose_file_path">We find the files in ROM,whether copy them to the SD card?</string>
+    <string name="message_no_files_in_rom">No</string>
+    <!-- Button -->
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+
+    <!-- Toast-->
+
+
 </resources>
