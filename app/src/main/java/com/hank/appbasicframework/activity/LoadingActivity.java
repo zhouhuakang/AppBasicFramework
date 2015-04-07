@@ -50,9 +50,9 @@ public class LoadingActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
 
+        timer = new Timer();
         createDirectory();
         mApplication = BasicApplication.getInstance();
-        timer = new Timer();
 
         CrashHandler crashHandler = CrashHandler.getInstance();
         crashHandler.setLogSavePath(Settings.mTempFilePathFinal);
@@ -67,7 +67,7 @@ public class LoadingActivity extends BaseActivity {
 
         // Check for update
         checkUpdateTask = new CheckUpdateTask();
-        checkUpdateTask.execute();
+//        checkUpdateTask.execute();
         if (!stay) {
             timerSwitchToHome(3 * 1000);
         }

@@ -46,7 +46,6 @@ public class BasicApplication extends Application {
     public void onCreate() {
         super.onCreate();
         singleton = this;
-
         start();
     }
 
@@ -203,7 +202,7 @@ public class BasicApplication extends Application {
             downloadParam.setSaveFilePath(Settings.mTempFilePathFinal + File.separator + "update.apk");
 
             mApkAccessor = new ApkAccessor(BasicApplication.this);
-            mApkAccessor.setOnProgressListener(new OnProgressListener() {
+            mApkAccessor.setOnProgressListener(new DownLoadAccesser.OnProgressListener() {
 
                 @Override
                 public void onProgress(long progress, long total) {

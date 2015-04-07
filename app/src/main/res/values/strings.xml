@@ -12,7 +12,7 @@
     <string name="error_system">Something is wrong with the system!</string>
 
     <!-- Title Name-->
-    <string name="title">Title1</string>
+    <string name="title">Title</string>
     <string name="alert_title_choose_file_path">Choose the path to save files</string>
     <string name="alert_app_new_version_found">Find new version,\ndo you want to upgrade?</string>
     <string name="update_title">Upgrading ...</string>
